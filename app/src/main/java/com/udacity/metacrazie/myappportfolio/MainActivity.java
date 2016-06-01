@@ -1,11 +1,14 @@
 package com.udacity.metacrazie.myappportfolio;
 
 import android.os.Bundle;
+import android.support.design.widget.CoordinatorLayout;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -42,41 +45,9 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void toastMsg(String msg) {
-
-        Toast toast = Toast.makeText(this, msg, Toast.LENGTH_LONG);
-        toast.show();
-
+    public void onButtonClick(View view) {
+        Button button = (Button) view;
+        Toast.makeText(this, "This button will launch " + button.getText(), Toast.LENGTH_SHORT).show();
     }
 
-    public void displayToastMsg1(View v) {
-
-        toastMsg("This button will launch Spotify Streamer!");
-
-    }
-    public void displayToastMsg2(View v) {
-
-        toastMsg("This button will launch Scores app!");
-
-    }
-    public void displayToastMsg3(View v) {
-
-        toastMsg("This button will launch Library app!");
-
-    }
-    public void displayToastMsg4(View v) {
-
-        toastMsg("This button will launch Built it Bigger!");
-
-    }
-    public void displayToastMsg5(View v) {
-
-        toastMsg("This button will launch XYZ Reader!");
-
-    }
-    public void displayToastMsg6(View v) {
-
-        toastMsg("This button will launch my capstone app!");
-
-    }
 }

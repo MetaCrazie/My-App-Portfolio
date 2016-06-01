@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">My App Portfolio</string>
     <string name="action_settings">About</string>
-    <string name="Intro">My Nanodegree Apps!</string>
-    <string name="Btn1">SPOTIFY STREAMER</string>
-    <string name="Btn2">SCORES APP</string>
-    <string name="Btn3">LIBRARY APP</string>
-    <string name="Btn4">BUILD IT BIGGER</string>
-    <string name="Btn5">XYZ READER</string>
-    <string name="Btn6">CAPSTONE:MY OWN APP</string>
+    <string name="Intro">Nanodegree Apps</string>
+    <string name="Btn1">Popular Movies</string>
+    <string name="Btn2">Stock Hawk</string>
+    <string name="Btn3">Build It Bigger</string>
+    <string name="Btn4">Make Your App Material</string>
+    <string name="Btn5">Go Ubiquitous</string>
+    <string name="Btn6">Capstone: My Own App</string>
 </resources>
